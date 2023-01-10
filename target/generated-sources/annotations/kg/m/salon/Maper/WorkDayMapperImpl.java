@@ -8,7 +8,7 @@ import kg.m.salon.models.entity.WorkDay;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2022-12-12T09:30:04+0600",
+    date = "2022-12-15T22:56:04+0600",
     comments = "version: 1.5.2.Final, compiler: javac, environment: Java 1.8.0_351 (Oracle Corporation)"
 )
 public class WorkDayMapperImpl implements WorkDayMapper {
@@ -21,11 +21,6 @@ public class WorkDayMapperImpl implements WorkDayMapper {
 
         WorkDay workDay = new WorkDay();
 
-        workDay.setId( d.getId() );
-        workDay.setStartDate( d.getStartDate() );
-        workDay.setEndDate( d.getEndDate() );
-        workDay.setDays( d.getDays() );
-
         return workDay;
     }
 
@@ -36,11 +31,6 @@ public class WorkDayMapperImpl implements WorkDayMapper {
         }
 
         WorkDayDto workDayDto = new WorkDayDto();
-
-        workDayDto.setId( e.getId() );
-        workDayDto.setStartDate( e.getStartDate() );
-        workDayDto.setEndDate( e.getEndDate() );
-        workDayDto.setDays( e.getDays() );
 
         return workDayDto;
     }

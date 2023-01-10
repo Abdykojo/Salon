@@ -8,7 +8,7 @@ import kg.m.salon.models.entity.User;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2022-12-12T09:30:11+0600",
+    date = "2022-12-15T22:56:04+0600",
     comments = "version: 1.5.2.Final, compiler: javac, environment: Java 1.8.0_351 (Oracle Corporation)"
 )
 public class UserMapperImpl implements UserMapper {
@@ -21,13 +21,6 @@ public class UserMapperImpl implements UserMapper {
 
         User user = new User();
 
-        user.setId( d.getId() );
-        user.setName( d.getName() );
-        user.setLogin( d.getLogin() );
-        user.setPassword( d.getPassword() );
-        user.setEmail( d.getEmail() );
-        user.setPhone( d.getPhone() );
-
         return user;
     }
 
@@ -38,13 +31,6 @@ public class UserMapperImpl implements UserMapper {
         }
 
         UserDto userDto = new UserDto();
-
-        userDto.setId( e.getId() );
-        userDto.setName( e.getName() );
-        userDto.setLogin( e.getLogin() );
-        userDto.setPassword( e.getPassword() );
-        userDto.setEmail( e.getEmail() );
-        userDto.setPhone( e.getPhone() );
 
         return userDto;
     }

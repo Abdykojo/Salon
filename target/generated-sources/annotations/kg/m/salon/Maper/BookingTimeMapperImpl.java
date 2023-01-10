@@ -8,7 +8,7 @@ import kg.m.salon.models.entity.BookingTime;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2022-12-12T09:29:18+0600",
+    date = "2022-12-15T22:56:04+0600",
     comments = "version: 1.5.2.Final, compiler: javac, environment: Java 1.8.0_351 (Oracle Corporation)"
 )
 public class BookingTimeMapperImpl implements BookingTimeMapper {
